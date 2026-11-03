@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "DplayerTv",
+    "slug": "dplayertv",
+    "scheme": "dplayertv",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "./plugins/withCleartextTraffic"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.dplayertv.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    },
+    "icon": "./assets/icon.png"
+  }
+}
